@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport"content="width=device-width">
+        <title>Simple Calculator</title>
+        <link rel="stylesheet" href="calculator.css">
+    </head>
+    <body>
+        <h1>simple Calculator using javascript</h1>
+        <div class="calc_form">
+            <form name="formcalc">
+                <input id="inputbox"type="text"name="results">
+                <br>
+                <br>
+                <input type="button" value="1" onclick="formcalc.results.value=formcalc.results.value+'1'">
+                <input type="button" value="2" onclick="formcalc.results.value=formcalc.results.value+'2'">
+                <input type="button" value="3" onclick="formcalc.results.value=formcalc.results.value+'3'">
+                <input type="button" value="+" onclick="formcalc.results.value=formcalc.results.value+'+'">
+                <br>
+                
+                <input type="button" value="4" onclick="formcalc.results.value=formcalc.results.value+'4'">
+                <input type="button" value="5" onclick="formcalc.results.value=formcalc.results.value+'5'">
+                <input type="button" value="6" onclick="formcalc.results.value=formcalc.results.value+'6'">
+                <input type="button" value="-" onclick="formcalc.results.value=formcalc.results.value+'-'">
+                <br>
+                
+                <input type="button" value="7" onclick="formcalc.results.value=formcalc.results.value+'7'">
+                <input type="button" value="8" onclick="formcalc.results.value=formcalc.results.value+'8'">
+                <input type="button" value="9" onclick="formcalc.results.value=formcalc.results.value+'9'">
+                <input type="button" value="*" onclick="formcalc.results.value=formcalc.results.value+'*'">
+                <br>
+                
+                <input type="button" value="." onclick="formcalc.results.value=formcalc.results.value+'.'">
+                <input type="button" value="0" onclick="formcalc.results.value=formcalc.results.value+'0'">
+                <input type="button" value="/" onclick="formcalc.results.value=formcalc.results.value+'/'">
+                <input type="button" value="=" onclick="formcalc.results.value=eval(formcalc.results.value)">
+                <br>
+                
+                <input type="button" id="clear" value="Clearall" onclick="formcalc.results.value=''">
+
+            </form>
+        </div>
+    </body>
+</html>

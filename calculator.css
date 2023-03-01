@@ -1,0 +1,37 @@
+.calc_form
+{
+  text-align: center ;  
+ }
+ h1{
+    text-align: center;
+ }
+ #inputbox
+ {
+    width: 230px;
+    height: 40px;
+    background-color:rgb(0, 255, 255);
+    color: black;
+    border: 1px solid brown;
+    border-radius: 4px;
+    font-size: large;
+    font: bold;
+    padding:5px;
+    margin: 5px;
+ }
+ #clear{
+    width: 236px;
+    height: 40px;
+ }
+ input{
+    width: 52px;
+    height: 40px;
+    background-color:lightsalmon;
+    color: black;
+    border: 1px solid brown;
+    border-radius: 4px;
+    font-size: large;
+    font: bold;
+    padding:8px;
+    margin: 2px;
+    
+ }
